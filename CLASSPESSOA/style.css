@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: fantasy;
+    font-size:larger;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    font-family: fantasy;
+
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+} 
+label, input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+
+input[type="text"], input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: fantasy;
+    width: calc(100% - 20px);
+}
+
+
+
+input[type="submit"] {
+    background-color: #4b39c2;
+    color: #000000;
+    padding: 10px 20px;
+    font-style: bold;
+    font-family: fantasy;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #00db99;
+}
